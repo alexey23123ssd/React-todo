@@ -27,3 +27,21 @@
     opacity: 0;
     transition: opacity 500ms ease-in;
 }
+
+.page__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.page{
+    border:1px solid teal;
+    padding:10px;
+    cursor: pointer;
+}
+
+.page__current{
+    border:2px solid orange;
+    font-weight: bold;
+}
